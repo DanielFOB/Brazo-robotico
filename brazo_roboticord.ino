@@ -31,7 +31,7 @@ void setup()
  Derecha.write(initDerecha);
  Base.write(initBase);
  Garra.write(initGarra);
- delay(2000);
+ delay(1000);
  
 }
 
@@ -131,6 +131,7 @@ if(BanderaIzquierda==0)
     delay(20);
     if(Izquierda.read()==20)
     {
+    
       BanderaIzquierda=0;
       BanderaBase=0;
       }}
